@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Quicksand, sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    padding-right: 50px;
+}
+.profile-pic {
+    max-width: 700px;
+    animation: fadeInLeft; animation-duration: 1s;
+}
+img {
+    width: 100%;
+}
+.cv {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    height: 100%;
+    padding-top: 100px;
+}
+.introduce {
+    width: 100%;
+}
+.mark {
+    background: rgba(247,224,24, 0.3);
+    padding: 0 3px;
+}
+h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    animation: bounceInDown; animation-duration: 1s;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: inherit;
+}
+.introduce p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.name {
+    font-size: inherit;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ef652a;
+}
+.skills {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.skill-badge {
+    background: #f4f4f4;
+    border-radius: 16px;
+    padding: 2px 12px;
+    margin: 0 10px 10px 0;
+    font-weight: 600;
+}
+.skill-badge:hover {
+    animation: jello; animation-duration: 1s;
+}
+.html {
+    background: #ef652a;
+    color: white;
+}
+.css {
+    background: #214ce5;
+    color: white;
+}
+.js {
+    background: #f7e018;
+}
+.bootstrap {
+    background: #563d7c;
+    color: white;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ef652a;
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 40px;
+}
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.social {
+    width: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* position: absolute;
+    top: 350px;
+    right: 0; */
+}
+/* .dikey {
+    transform: rotate(-90deg);
+    color: #bbb;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.dikey:hover {
+    color: #ef652a;
+} */
+.social-badge {
+    background: #f4f4f4;
+    border-radius: 50%;
+    padding: 9px 12px;
+    margin: 0 10px 10px 0;
+    font-weight: 600;
+    text-align: center;
+}
+.social-badge:hover {
+    animation: jello; animation-duration: 1s;
+}
+.linkedin:hover {
+    color: #0274b3;
+}
+.twitter:hover {
+    color: #1ca1f1;
+}
+.gmail:hover, .blog:hover {
+    color: #eb4132;
+}
+/* Responsive özellikler */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        margin: 0 30px;
+        padding-right: 0;
+        height: auto;
+    }
+    .profile-pic {
+        width: 300px;
+        height: auto;
+    }
+    .introduce {
+        margin-top: 20px;
+    }
+    .cv {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .skills, .portfolio, .social {
+        margin-bottom: 10px;
+    }
+}
