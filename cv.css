@@ -82,6 +82,10 @@ h2 {
     background: #214ce5;
     color: white;
 }
+.sass {
+    background: #cc6699;
+    color: white;
+}
 .js {
     background: #f7e018;
 }
