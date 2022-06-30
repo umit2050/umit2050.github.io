@@ -1,0 +1,36 @@
+@use "variables" as *;
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    animation: bounceInDown; animation-duration: 1s;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: inherit;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: $renk-html;
+}
+
+.name {
+    font-size: inherit;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: $renk-html;
+}
+
+@mixin paragraf {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: justify;
+}

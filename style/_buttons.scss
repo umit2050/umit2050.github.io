@@ -1,0 +1,66 @@
+@use "variables" as *;
+
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.skill-badge {
+    background: $renk-f4;
+    border-radius: 16px;
+    padding: 2px 12px;
+    margin: 0 10px 10px 0;
+    font-weight: 600;
+}
+
+.skill-badge:hover {
+    animation: jello; animation-duration: 1s;
+}
+
+.html, .css, .sass, .bootstrap {
+    color: $renk-beyaz;
+}
+.html {
+    background: $renk-html;
+}
+
+.css {
+    background: $renk-css;
+}
+
+.sass {
+    background: $renk-sass;
+}
+
+.js {
+    background: $renk-js;
+}
+
+.bootstrap {
+    background: $renk-bootstrap;
+}
+
+.social-badge {
+    background: $renk-f4;
+    border-radius: 50%;
+    padding: 9px 12px;
+    margin: 0 10px 10px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.social-badge:hover {
+    animation: jello; animation-duration: 1s;
+}
+
+.linkedin:hover {
+    color: $renk-linkedin;
+}
+
+.twitter:hover {
+    color: $renk-twitter;
+}
+
+.gmail:hover, .blog:hover {
+    color: $renk-gmail;
+}
