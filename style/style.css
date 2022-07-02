@@ -167,7 +167,7 @@ a, a:hover, a:visited, a:active {
           animation-duration: 1s;
 }
 
-.html, .css, .sass, .bootstrap {
+.html, .css, .sass, .jquery, .bootstrap {
   color: #ffffff;
 }
 
@@ -185,6 +185,10 @@ a, a:hover, a:visited, a:active {
 
 .js {
   background: #f7e018;
+}
+
+.jquery {
+  background: #0769ad;
 }
 
 .bootstrap {
