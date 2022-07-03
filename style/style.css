@@ -167,7 +167,7 @@ a, a:hover, a:visited, a:active {
           animation-duration: 1s;
 }
 
-.html, .css, .sass, .jquery, .bootstrap {
+.html, .css, .sass, .jquery, .bootstrap, .figma, .photoshop {
   color: #ffffff;
 }
 
@@ -183,6 +183,10 @@ a, a:hover, a:visited, a:active {
   background: #cc6699;
 }
 
+.react {
+  background: #61dbfb;
+}
+
 .js {
   background: #f7e018;
 }
@@ -193,6 +197,14 @@ a, a:hover, a:visited, a:active {
 
 .bootstrap {
   background: #563d7c;
+}
+
+.figma {
+  background: #f24e1e;
+}
+
+.photoshop {
+  background: #1175c3;
 }
 
 .social-badge {

@@ -17,7 +17,7 @@ a, a:hover, a:visited, a:active {
     animation: jello; animation-duration: 1s;
 }
 
-.html, .css, .sass, .jquery, .bootstrap {
+.html, .css, .sass, .jquery, .bootstrap, .figma, .photoshop {
     color: $renk-beyaz;
 }
 .html {
@@ -32,6 +32,10 @@ a, a:hover, a:visited, a:active {
     background: $renk-sass;
 }
 
+.react {
+    background: $renk-react;
+}
+
 .js {
     background: $renk-js;
 }
@@ -42,6 +46,14 @@ a, a:hover, a:visited, a:active {
 
 .bootstrap {
     background: $renk-bootstrap;
+}
+
+.figma {
+    background: $renk-figma;
+}
+
+.photoshop {
+    background: $renk-photoshop;
 }
 
 .social-badge {
