@@ -4,7 +4,6 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     font-family: $font;
     color: $renk-siyah-8;
     padding-right: 50px;
@@ -50,6 +49,7 @@ img {
 
 .portfolio {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     margin-bottom: 40px;

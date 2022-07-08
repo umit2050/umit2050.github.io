@@ -1,0 +1,57 @@
+@use "variables" as *;
+@use "typography" as *;
+
+.portfolio-page {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+table {
+    width: 100%;
+}
+
+.colon-work, .colon-tech {
+    width: 45%;
+}
+
+.colon-view {
+    width: 10%;
+}
+
+tr, td {
+    display: flex;
+}
+
+thead tr {
+    border-bottom: 3px solid rgba($renk-html, 0.7);
+}
+
+tr {
+    border-bottom: 1px solid $renk-cizgi;
+}
+
+td {
+    width: 50%;
+    align-items: center;
+    padding: 5px 0;
+}
+
+nav {
+    background: $renk-f4;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 12px 20px;
+    a, a:visited {
+        color: $renk-html;
+        &:hover {
+            color: $renk-gmail;
+        }
+    }
+}
+
+#mobile-message {
+   display: none;
+   color: $renk-gmail;
+}

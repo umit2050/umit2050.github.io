@@ -40,7 +40,6 @@ h3 {
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
   font-family: Quicksand, sans-serif;
   color: rgba(0, 0, 0, 0.8);
   padding-right: 50px;
@@ -91,6 +90,7 @@ img {
 
 .portfolio {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   margin-bottom: 40px;
@@ -167,6 +167,10 @@ a, a:hover, a:visited, a:active {
           animation-duration: 1s;
 }
 
+.td-button {
+  margin: 3px 2px;
+}
+
 .html, .css, .sass, .jquery, .bootstrap, .figma, .photoshop {
   color: #ffffff;
 }
@@ -239,6 +243,7 @@ a, a:hover, a:visited, a:active {
 @media (max-width: 768px) {
   body {
     flex-direction: column;
+    align-items: center;
     margin: 0 30px;
     padding-right: 0;
     height: auto;
@@ -270,4 +275,93 @@ a, a:hover, a:visited, a:active {
   .skills, .portfolio, .social {
     margin-bottom: 10px;
   }
+
+  #mobile-message {
+    display: visible;
+  }
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  -webkit-animation: bounceInDown;
+          animation: bounceInDown;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: inherit;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ef652a;
+}
+
+.name {
+  font-size: inherit;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ef652a;
+}
+
+.portfolio-page {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+}
+
+table {
+  width: 100%;
+}
+
+.colon-work, .colon-tech {
+  width: 45%;
+}
+
+.colon-view {
+  width: 10%;
+}
+
+tr, td {
+  display: flex;
+}
+
+thead tr {
+  border-bottom: 3px solid rgba(239, 101, 42, 0.7);
+}
+
+tr {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+td {
+  width: 50%;
+  align-items: center;
+  padding: 5px 0;
+}
+
+nav {
+  background: #f4f4f4;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 12px 20px;
+}
+nav a, nav a:visited {
+  color: #ef652a;
+}
+nav a:hover, nav a:visited:hover {
+  color: #eb4132;
+}
+
+#mobile-message {
+  display: none;
+  color: #eb4132;
 }/*# sourceMappingURL=style.css.map */

@@ -2,6 +2,7 @@
 @media (max-width: 768px) {
     body {
         flex-direction: column;
+        align-items: center;
         margin: 0 30px;
         padding-right: 0;
         height: auto;
@@ -27,4 +28,7 @@
     .skills, .portfolio, .social {
         margin-bottom: 10px;
     }
+    #mobile-message {
+        display: visible;
+     }
 }

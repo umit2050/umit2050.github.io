@@ -17,6 +17,10 @@ a, a:hover, a:visited, a:active {
     animation: jello; animation-duration: 1s;
 }
 
+.td-button {
+    margin: 3px 2px;
+}
+
 .html, .css, .sass, .jquery, .bootstrap, .figma, .photoshop {
     color: $renk-beyaz;
 }
