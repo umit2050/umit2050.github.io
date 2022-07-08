@@ -17,6 +17,10 @@ a, a:hover, a:visited, a:active {
     animation: jello; animation-duration: 1s;
 }
 
+.outline {
+    outline: 1px solid rgba($renk-outline, 0.3);
+}
+
 .td-button {
     margin: 3px 2px;
 }
@@ -24,6 +28,7 @@ a, a:hover, a:visited, a:active {
 .html, .css, .sass, .jquery, .bootstrap, .figma, .photoshop {
     color: $renk-beyaz;
 }
+
 .html {
     background: $renk-html;
 }

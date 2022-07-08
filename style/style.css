@@ -166,6 +166,10 @@ a, a:hover, a:visited, a:active {
           animation-duration: 1s;
 }
 
+.outline {
+  outline: 1px solid rgba(128, 128, 128, 0.3);
+}
+
 .td-button {
   margin: 3px 2px;
 }
@@ -344,8 +348,11 @@ thead tr {
 tr {
   border-bottom: 1px solid #e6e6e6;
 }
-tr:hover {
+tr:hover:not(thead tr) {
   background: rgba(244, 244, 244, 0.8);
+}
+tr:hover:not(thead tr) .outline {
+  outline: 1px solid #808080;
 }
 
 td {

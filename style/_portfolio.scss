@@ -29,8 +29,11 @@ thead tr {
 
 tr {
     border-bottom: 1px solid $renk-cizgi;
-    &:hover {
-        background: rgba($renk-f4, 0.8)
+    &:hover:not(thead tr) {
+        background: rgba($renk-f4, 0.8);
+        .outline {
+            outline: 1px solid $renk-outline;
+        }
     }
 }
 
