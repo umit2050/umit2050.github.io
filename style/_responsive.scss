@@ -1,5 +1,6 @@
-/* Responsive özellikler */
+/* Responsive */
 @media (max-width: 768px) {
+    // Main
     body {
         flex-direction: column;
         align-items: center;
@@ -7,28 +8,41 @@
         padding-right: 0;
         height: auto;
     }
+
     .profile-pic {
         width: 300px;
         height: auto;
     }
+
     .introduce {
         margin-top: 20px;
     }
+
     .cv {
         width: 100%;
         height: auto;
         padding-top: 0;
     }
+
     h1 {
         font-size: 2.5rem;
     }
+
     h2 {
         font-size: 1.5rem;
     }
+
     .skills, .portfolio, .social {
         margin-bottom: 10px;
     }
-    #mobile-message {
-        display: visible;
-     }
+
+    // Portfolio
+    .portfolio-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .long-text {
+        display: none;
+    }
 }

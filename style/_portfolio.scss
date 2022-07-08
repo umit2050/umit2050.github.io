@@ -11,12 +11,12 @@ table {
     width: 100%;
 }
 
-.colon-work, .colon-tech {
-    width: 45%;
+.column-work, .column-tech {
+    width: 44%;
 }
 
-.colon-view {
-    width: 10%;
+.column-view {
+    width: 12%;
 }
 
 tr, td {
@@ -29,11 +29,14 @@ thead tr {
 
 tr {
     border-bottom: 1px solid $renk-cizgi;
+    &:hover {
+        background: rgba($renk-f4, 0.8)
+    }
 }
 
 td {
-    width: 50%;
     align-items: center;
+    flex-wrap: wrap;
     padding: 5px 0;
 }
 
@@ -51,7 +54,6 @@ nav {
     }
 }
 
-#mobile-message {
-   display: none;
-   color: $renk-gmail;
+.long-text {
+    margin-left: 4px;
 }

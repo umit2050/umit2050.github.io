@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Quicksand:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -239,7 +238,7 @@ a, a:hover, a:visited, a:active {
   color: #eb4132;
 }
 
-/* Responsive özellikler */
+/* Responsive */
 @media (max-width: 768px) {
   body {
     flex-direction: column;
@@ -276,8 +275,13 @@ a, a:hover, a:visited, a:active {
     margin-bottom: 10px;
   }
 
-  #mobile-message {
-    display: visible;
+  .portfolio-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .long-text {
+    display: none;
   }
 }
 h1 {
@@ -321,12 +325,12 @@ table {
   width: 100%;
 }
 
-.colon-work, .colon-tech {
-  width: 45%;
+.column-work, .column-tech {
+  width: 44%;
 }
 
-.colon-view {
-  width: 10%;
+.column-view {
+  width: 12%;
 }
 
 tr, td {
@@ -340,10 +344,13 @@ thead tr {
 tr {
   border-bottom: 1px solid #e6e6e6;
 }
+tr:hover {
+  background: rgba(244, 244, 244, 0.8);
+}
 
 td {
-  width: 50%;
   align-items: center;
+  flex-wrap: wrap;
   padding: 5px 0;
 }
 
@@ -361,7 +368,6 @@ nav a:hover, nav a:visited:hover {
   color: #eb4132;
 }
 
-#mobile-message {
-  display: none;
-  color: #eb4132;
+.long-text {
+  margin-left: 4px;
 }/*# sourceMappingURL=style.css.map */
