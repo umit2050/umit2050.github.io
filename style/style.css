@@ -307,6 +307,7 @@ tr:hover:not(thead tr) {
 }
 tr:hover:not(thead tr) .outline {
   outline: 1px solid #808080;
+  border-radius: 16px;
 }
 
 td {

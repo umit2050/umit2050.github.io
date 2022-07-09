@@ -33,6 +33,7 @@ tr {
         background: rgba($renk-f4, 0.8);
         .outline {
             outline: 1px solid $renk-outline;
+            border-radius: 16px;
         }
     }
 }
