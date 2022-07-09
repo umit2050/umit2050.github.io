@@ -6,7 +6,6 @@ body {
     justify-content: center;
     font-family: $font;
     color: $renk-siyah-8;
-    padding-right: 50px;
 }
 
 .profile-pic {
@@ -24,6 +23,7 @@ img {
     max-width: 700px;
     height: 100%;
     padding-top: 100px;
+    margin-right: 50px;
 }
 
 .introduce {
