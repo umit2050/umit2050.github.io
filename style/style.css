@@ -242,52 +242,6 @@ a, a:hover, a:visited, a:active {
   color: #eb4132;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  body {
-    flex-direction: column;
-    align-items: center;
-    margin: 0 30px;
-    padding-right: 0;
-    height: auto;
-  }
-
-  .profile-pic {
-    width: 300px;
-    height: auto;
-  }
-
-  .introduce {
-    margin-top: 20px;
-  }
-
-  .cv {
-    width: 100%;
-    height: auto;
-    padding-top: 0;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .skills, .portfolio, .social {
-    margin-bottom: 10px;
-  }
-
-  .portfolio-page {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .long-text {
-    display: none;
-  }
-}
 h1 {
   font-size: 3.5rem;
   font-weight: 600;
@@ -377,4 +331,51 @@ nav a:hover, nav a:visited:hover {
 
 .long-text {
   margin-left: 4px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+    padding-right: 0;
+    height: auto;
+  }
+
+  .profile-pic {
+    width: 300px;
+    height: auto;
+  }
+
+  .introduce {
+    margin-top: 20px;
+  }
+
+  .cv {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .skills, .portfolio, .social {
+    margin-bottom: 10px;
+  }
+
+  .portfolio-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .long-text {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
