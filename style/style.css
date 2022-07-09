@@ -307,7 +307,6 @@ tr:hover:not(thead tr) {
 }
 tr:hover:not(thead tr) .outline {
   outline: 1px solid #808080;
-  border-radius: 16px;
 }
 
 td {
@@ -378,5 +377,9 @@ nav a:hover, nav a:visited:hover {
 
   .long-text {
     display: none;
+  }
+
+  .outline {
+    outline: none;
   }
 }/*# sourceMappingURL=style.css.map */
