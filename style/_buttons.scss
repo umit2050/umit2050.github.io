@@ -25,7 +25,7 @@ a, a:hover, a:visited, a:active {
     margin: 3px 2px;
 }
 
-.html, .css, .sass, .jquery, .bootstrap, .figma, .photoshop {
+.html, .css, .sass, .jquery, .bootstrap, .bulma, .figma {
     color: $renk-beyaz;
 }
 
@@ -57,12 +57,12 @@ a, a:hover, a:visited, a:active {
     background: $renk-bootstrap;
 }
 
-.figma {
-    background: $renk-figma;
+.bulma {
+    background: $renk-bulma;
 }
 
-.photoshop {
-    background: $renk-photoshop;
+.figma {
+    background: $renk-figma;
 }
 
 .social-badge {

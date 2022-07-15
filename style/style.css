@@ -174,7 +174,7 @@ a, a:hover, a:visited, a:active {
   margin: 3px 2px;
 }
 
-.html, .css, .sass, .jquery, .bootstrap, .figma, .photoshop {
+.html, .css, .sass, .jquery, .bootstrap, .bulma, .figma {
   color: #ffffff;
 }
 
@@ -206,12 +206,12 @@ a, a:hover, a:visited, a:active {
   background: #563d7c;
 }
 
-.figma {
-  background: #f24e1e;
+.bulma {
+  background: #00D1B2;
 }
 
-.photoshop {
-  background: #1175c3;
+.figma {
+  background: #f24e1e;
 }
 
 .social-badge {
@@ -342,53 +342,42 @@ nav a:hover, nav a:visited:hover {
     margin: 0 20px;
     height: auto;
   }
-
   .profile-pic {
     width: 300px;
     height: auto;
   }
-
   .introduce {
     margin-top: 20px;
   }
-
   .cv {
     width: 100%;
     height: auto;
     padding-top: 0;
     margin-right: 0;
   }
-
   h1 {
     font-size: 3rem;
   }
-
   h2 {
     font-size: 1.5rem;
   }
-
   h3 {
     font-size: 1.2rem;
   }
-
   .skills, .portfolio, .social {
     margin-bottom: 10px;
   }
-
   .portfolio-page {
     display: flex;
     flex-direction: column;
     margin: 0;
   }
-
   nav {
     margin-bottom: 10px;
   }
-
   .long-text {
     display: none;
   }
-
   .outline {
     outline: none;
   }
